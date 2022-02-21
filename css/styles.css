@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", "Courier New", monospace;
+  font-family: "Allerta Stencil", "Courier New", sans-serif;
 }
 
 body,
@@ -19,6 +21,7 @@ html {
   color: white;
   height: 7vh;
   padding-right: 0.5rem;
+  font-family: "Poppins", "Courier New", sans-serif;
 }
 
 .navbar-links ul {
@@ -49,6 +52,55 @@ html {
   padding-right: 2rem;
 }
 
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    left: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar{
+height: 3px;
+width: 100%;
+background-color: white;
+border-radius: 10px;
+
+}
+
+@media (max-width:600px) {
+
+.toggle-button{
+    display:flex
+}
+.navbar-links{
+    display:none;
+    width: 100%
+}
+
+
+.navbar{
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+.navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+}
+.navbar-links li{
+    text-align: center;
+}
+.navbar-links li a{
+    padding:.5rem 1rem;
+}
+
+.navbar-links.active{
+    display: flex;
+}
+}
 .container {
   background-color: transparent;
   height: 93%;
@@ -76,16 +128,16 @@ html {
   text-align: center;
 }
 #p1 {
-  font-size: 30px;
+  font-size: 50px;
 }
 
 #p2 {
-  font-size: 24px;
+  font-size: 40px;
   color: rgb(244, 221, 193);
 }
 
 #p3 {
-  font-size: 18px;
+  font-size: 25px;
 }
 
 hr.divider {
@@ -120,13 +172,13 @@ hr.divider {
 }
 
 .abtImgCont {
-  height: 27vh;
+  height: 20vh;
   text-align: center;
 }
 #imgProfile {
   align-self: center;
-  width: 180px;
-  height: 180px;
+  width: 140px;
+  height: 140px;
 }
 .abtTxtCont {
   height: 100vh;
