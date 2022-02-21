@@ -1,16 +1,106 @@
-*{
-    box-sizing: border-box;
-}
 
-body{
+
+body, 
+html{
     margin: 0;
-    padding:0;
+    background-color: #333;
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     background-color: #333;
     color:white;
+    height: 7vh;
+}
+
+
+
+.navbar-links ul{
+    display: flex;
+}
+
+.navbar-links li{
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding-right: 2rem;
+    display: block;
+    font-size: 1.2rem;
+    font-family: "Lucida Console", "Courier New", monospace;
+    
+}
+
+.navbar-links li a:hover {
+    color: rgb(165, 73, 73);
+    font-size: 1.3rem;
+}
+
+.dot{
+    color: rgb(165, 73, 73);
+    font-size: 1rem;
+    padding-right: 2rem;
+}
+.container{
+    display: flex;
+    background-color: transparent;
+    height: 93vh;
+    position: absolute;
+    margin:0;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.about{
+    justify-content: center;
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+    margin:0;
+
+}
+
+.abtTxtCont h1{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color:white;
+    display: block;
+    text-align: center;
+    bottom: 50%;
+    font-weight: bold;
+
+
+}
+
+.abtTxtCont h2{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color:white;
+    display: block;
+    text-align: center;
+    bottom: 50%;
+    font-weight: bold;
+
+
+}
+.profilepic{
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    margin:auto;
+    display: block;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+
+.abtImgCont{
+    align-self:flex-start;
+
+}
+.abtTxtCont{
+align-self: baseline;
+
 }
