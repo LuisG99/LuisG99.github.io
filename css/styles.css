@@ -141,7 +141,7 @@ html {
   font-size: 50px;
 }
 
-.p2 {
+#p2 {
   position: relative;
   font-size: 50px;
   color: white;
@@ -296,11 +296,11 @@ hr.divider {
     font-size: 25px;
     padding-top: 1rem;
   }
-  .p2{
-    font-size: 20;
+  #p2{
+    font-size: 20px;
   }
   #p3{
-    font-size: 13;
+    font-size: 13px;
   }
   #p4{
     font-size: 10px;
@@ -310,9 +310,10 @@ hr.divider {
     width: 100px;
     height: 100px;
   }
+  
 
-  .p2::before,
-.p2::after {
+  #p2::before,
+#p2::after {
   position: absolute;
   content: attr(data-text);
   width: 100%;
@@ -321,21 +322,21 @@ hr.divider {
   overflow: hidden;
 }
 
-.p2::before {
+#p2::before {
   left: 2px;
   text-shadow: -3px 0 red;
   animation: glitch-1 2s 0s linear reverse infinite;
 }
 
-.p2::after {
+#p2::after {
   left: 2px;
   text-shadow: -3px 0 blue;
   animation: glitch-2 2s 0s linear reverse infinite;
 }
 }
   /* animations */
-.p2::before,
-.p2::after {
+#p2::before,
+#p2::after {
   position: absolute;
   content: attr(data-text);
   width: 100%;
@@ -344,13 +345,13 @@ hr.divider {
   overflow: hidden;
 }
 
-.p2::before {
+#p2::before {
   left: 2px;
   text-shadow: -3px 0 red;
   animation: glitch-1 2s 0s linear reverse infinite;
 }
 
-.p2::after {
+#p2::after {
   left: 2px;
   text-shadow: -3px 0 blue;
   animation: glitch-2 2s 0s linear reverse infinite;
