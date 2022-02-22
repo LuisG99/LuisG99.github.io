@@ -52,6 +52,10 @@ html {
   align-self: center;
 }
 
+#socialM{
+  margin-bottom: 0;
+}
+
 @media print {
   footer {
     page-break-after: always;
@@ -260,7 +264,7 @@ hr.divider {
 }
 
 /* Smaller screens */
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .toggle-button {
     display: flex;
   }
@@ -289,17 +293,45 @@ hr.divider {
     display: flex;
   }
   #p1{
-    font-size: 30px;
+    font-size: 25px;
+    padding-top: 1rem;
   }
   .p2{
-    font-size: 30;
+    font-size: 20;
   }
   #p3{
-    font-size: 5;
+    font-size: 13;
   }
   #p4{
-    font-size: 1px;
+    font-size: 10px;
   }
+  #imgProfile {
+    align-self: center;
+    width: 100px;
+    height: 100px;
+  }
+
+  .p2::before,
+.p2::after {
+  position: absolute;
+  content: attr(data-text);
+  width: 100%;
+  height: 100%;
+  color: white;
+  overflow: hidden;
+}
+
+.p2::before {
+  left: 2px;
+  text-shadow: -3px 0 red;
+  animation: glitch-1 2s 0s linear reverse infinite;
+}
+
+.p2::after {
+  left: 2px;
+  text-shadow: -3px 0 blue;
+  animation: glitch-2 2s 0s linear reverse infinite;
+}
 }
   /* animations */
 .p2::before,
