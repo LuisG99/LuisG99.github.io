@@ -162,7 +162,7 @@ html {
 #p4 {
   font-size: 20px;
   color: rgb(187, 56, 56);
-  padding-bottom: 0;
+  padding-bottom: 0.1rem;
 }
 #p5 {
   font-size: 25px;
