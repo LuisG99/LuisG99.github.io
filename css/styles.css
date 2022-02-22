@@ -305,10 +305,10 @@ hr.divider {
     padding-top: 1rem;
   }
   #p2{
-    font-size: 25px;
+    font-size: 20px;
   }
   #p3{
-    font-size: 5px;
+    font-size: 13px;
   }
   #p4{
     font-size: 13px;
@@ -317,6 +317,14 @@ hr.divider {
     align-self: center;
     width: 100px;
     height: 100px;
+  }
+  
+  hr.divider {
+    height: 2px;
+    max-width: 2.25rem;
+    margin: 1.5rem auto;
+    background-color: rgb(187, 56, 56);
+    opacity: 1;
   }
   
 
