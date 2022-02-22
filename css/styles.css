@@ -14,6 +14,51 @@ html {
   height: 100%;
 }
 
+/* divs */
+#container {
+  /* background-color: rgb(14, 14, 14);  */
+  margin: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  height: 100%;
+}
+
+.about {
+   background-color: rgb(14, 14, 14); 
+  height: 100%;
+}
+
+.abtImgCont {
+  height: 20vh;
+  text-align: center;
+  padding-top: 1rem;
+}
+#imgProfile {
+  align-self: center;
+  width: 140px;
+  height: 140px;
+}
+.abtTxtCont {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.paragCont {
+  height: 15vh;
+  width: 50vw;
+  margin-left: 20%;
+  align-self: center;
+}
+
+@media print {
+  footer {
+    page-break-after: always;
+  }
+}
+
+/* navbar */
 #navbar {
   display: flex;
   justify-content: space-between;
@@ -51,12 +96,6 @@ html {
   box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1);
 }
 
-.dot {
-  color: rgb(187, 56, 56);
-  font-size: 1rem;
-  padding-right: 2rem;
-}
-
 .toggle-button {
   position: absolute;
   top: 0.75rem;
@@ -74,6 +113,153 @@ html {
   border-radius: 10px;
 }
 
+
+/* letters */
+
+.dot {
+  color: rgb(187, 56, 56);
+  font-size: 1rem;
+  padding-right: 2rem;
+}
+
+.abtTxtCont p {
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 50px;
+}
+.abtTxtCont p {
+  color: white;
+  display: block;
+  text-align: center;
+}
+#p1 {
+  font-size: 50px;
+}
+
+.p2 {
+  position: relative;
+  font-size: 50px;
+  color: white;
+  /* color: rgb(111, 111, 111); */
+}
+
+#p3 {
+  font-size: 25px;
+}
+
+#p4 {
+  font-size: 20px;
+  color: rgb(187, 56, 56);
+}
+#p5 {
+  font-size: 25px;
+  color:  black;
+  font-weight: bold;
+  padding-left: 1rem;
+}
+
+hr.divider {
+  height: 0.2rem;
+  max-width: 3.25rem;
+  margin: 1.5rem auto;
+  background-color: rgb(187, 56, 56);
+  opacity: 1;
+}
+
+.abtTxtCont h2 {
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.abtTxtCont p {
+  color: white;
+  display: block;
+  text-align: center;
+}
+/* Images */
+
+.profilepic {
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  display: block;
+  top: 30%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+/* Social media links */
+#email {
+  padding-right: 1rem;
+  --fa-animation-duration: 2.5s;
+  --fa-primary-opacity: 1;
+  color: rgb(169, 166, 166);
+}
+
+#linkdin {
+  padding-right: 1rem;
+  --fa-animation-duration: 2.5s;
+  --fa-primary-opacity: 1;
+  color: rgb(169, 166, 166);
+}
+
+#email:hover {
+  color: white;
+}
+#linkdin:hover {
+  color: rgb(21, 105, 191);
+}
+
+#portfolio{
+  height: 1000px;
+  background-color: rgb(208, 204, 204);
+}
+
+
+
+.ipbLogo{
+  height: 30px;
+  width: 80px;
+  padding-left: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.education{
+  padding-top: 0rem;
+}
+
+.education1{
+  padding-top: 0.5rem
+}
+.p-others{
+  font-size: 18px;
+  color:  black;
+  padding-left: 1rem;
+  margin-bottom: 0.3rem;
+}
+.p-others-title{
+  font-size: 20px;
+  color:  rgb(187, 56, 56);
+  padding-left: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.hrs{
+  width: 100%;
+  background-color: rgb(187, 56, 56);
+}
+
+.hrt{
+  width: 100%;
+  border-top: 2px solid rgb(187, 56, 56);
+}
+
+/* Smaller screens */
 @media (max-width: 600px) {
   .toggle-button {
     display: flex;
@@ -102,43 +288,20 @@ html {
   .navbar-links.active {
     display: flex;
   }
+  #p1{
+    font-size: 30px;
+  }
+  .p2{
+    font-size: 30;
+  }
+  #p3{
+    font-size: 5;
+  }
+  #p4{
+    font-size: 1px;
+  }
 }
-#container {
-  /* background-color: rgb(14, 14, 14);  */
-  margin: 0;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  height: 100%;
-}
-
-.about {
-   background-color: rgb(14, 14, 14); 
-  height: 100%;
-}
-
-.abtTxtCont p {
-  color: white;
-  display: block;
-  text-align: center;
-  font-size: 50px;
-}
-.abtTxtCont p {
-  color: white;
-  display: block;
-  text-align: center;
-}
-#p1 {
-  font-size: 50px;
-}
-
-.p2 {
-  position: relative;
-  font-size: 50px;
-  color: white;
-  /* color: rgb(111, 111, 111); */
-}
-
+  /* animations */
 .p2::before,
 .p2::after {
   position: absolute;
@@ -291,142 +454,4 @@ html {
   100% {
     clip: rect(83px, auto, 40px, 30px);
   }
-}
-
-#p3 {
-  font-size: 25px;
-}
-
-#p4 {
-  font-size: 20px;
-  color: rgb(187, 56, 56);
-}
-#p5 {
-  font-size: 25px;
-  color:  black;
-  font-weight: bold;
-  padding-left: 1rem;
-}
-
-hr.divider {
-  height: 0.2rem;
-  max-width: 3.25rem;
-  margin: 1.5rem auto;
-  background-color: rgb(187, 56, 56);
-  opacity: 1;
-}
-
-.abtTxtCont h2 {
-  color: white;
-  display: block;
-  text-align: center;
-}
-
-.abtTxtCont p {
-  color: white;
-  display: block;
-  text-align: center;
-}
-
-.profilepic {
-  width: 200px;
-  border-radius: 50%;
-  position: absolute;
-  margin: auto;
-  display: block;
-  top: 30%;
-  left: 45%;
-  transform: translate(-50%, -50%);
-}
-
-.abtImgCont {
-  height: 20vh;
-  text-align: center;
-  padding-top: 1rem;
-}
-#imgProfile {
-  align-self: center;
-  width: 140px;
-  height: 140px;
-}
-.abtTxtCont {
-  text-align: center;
-  align-content: center;
-  justify-content: center;
-}
-
-.paragCont {
-  height: 15vh;
-  width: 50vw;
-  margin-left: 20%;
-  align-self: center;
-}
-
-#email {
-  padding-right: 1rem;
-  --fa-animation-duration: 2.5s;
-  --fa-primary-opacity: 1;
-  color: rgb(169, 166, 166);
-}
-
-#linkdin {
-  padding-right: 1rem;
-  --fa-animation-duration: 2.5s;
-  --fa-primary-opacity: 1;
-  color: rgb(169, 166, 166);
-}
-
-#email:hover {
-  color: white;
-}
-#linkdin:hover {
-  color: rgb(21, 105, 191);
-}
-
-#portfolio{
-  height: 1000px;
-  background-color: rgb(208, 204, 204);
-}
-
-@media print {
-  footer {
-    page-break-after: always;
-  }
-}
-
-.ipbLogo{
-  height: 30px;
-  width: 80px;
-  padding-left: 1rem;
-  margin-bottom: 0.3rem;
-}
-
-.education{
-  padding-top: 0rem;
-}
-
-.education1{
-  padding-top: 0.5rem
-}
-.p-others{
-  font-size: 18px;
-  color:  black;
-  padding-left: 1rem;
-  margin-bottom: 0.3rem;
-}
-.p-others-title{
-  font-size: 20px;
-  color:  rgb(187, 56, 56);
-  padding-left: 1rem;
-  margin-bottom: 0.3rem;
-}
-
-.hrs{
-  width: 100%;
-  background-color: rgb(187, 56, 56);
-}
-
-.hrt{
-  width: 100%;
-  border-top: 2px solid rgb(187, 56, 56);
 }
