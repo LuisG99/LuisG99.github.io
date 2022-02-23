@@ -1,10 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" );
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Allerta Stencil", "Courier New", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-weight: 1000;
 }
 
 body,
@@ -12,35 +15,40 @@ html {
   scroll-padding-top: calc(4.5rem - 1px);
   margin: 0;
   height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  position: absolute;
 }
 
 /* divs */
 #container {
   /* background-color: rgb(14, 14, 14);  */
   margin: 0;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
   position: relative;
-  height: 100%;
-   background-color: rgb(237, 234, 234); 
+  width: 100%;
+
 
 }
 
 .about {
-  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: rgb(240, 239, 239);
+  padding-top: 2rem;
+  
 
 
-}
+} 
 
 .abtImgCont {
-  height: 100%;
   width: 20%;
   text-align: center;
   right: 0;
   margin: auto;
   position: absolute;
-  background-color: rgb(14, 14, 14); 
+  background-color: rgb(57, 57, 57); 
+  height: 100vh;
 }
 #imgProfile {
   padding-top: 0;
@@ -48,12 +56,7 @@ html {
   height: 100%;
 }
 
-.image-div{
-  padding-top: 0;
-  width: 100%;
-  height: 40%;
-  position: relative;
-}
+
   
 .abtTxtCont {
   padding-top: 1rem;
@@ -63,8 +66,8 @@ html {
   width: 80%;
   position: absolute;
 
-}
 
+}
 .paragCont {
   height: 15vh;
   width: 50vw;
@@ -72,9 +75,22 @@ html {
   align-self: center;
   position: absolute;
 }
+.image-div{
+  padding-top: 0;
+  width: 100%;
+  height: 40%;
+  position: relative;
+}
+#portfolio{
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: rgb(240, 239, 239);
+  padding-top: 3rem;
+}
 
 #socialM{
-  padding-top: 2rem;
+  padding-top: 3rem;
   align-items: center;
   width: 100%;
   right: 0;
@@ -82,6 +98,9 @@ html {
   margin: auto;
   position: relative;
 } 
+.landing{
+  height: 100%;
+}
 
 
 @media print {
@@ -91,7 +110,7 @@ html {
 }
 
 /* navbar */
-#navbar {
+/* #navbar {
   display: flex;
   justify-content: space-between;
   background-color: black;
@@ -100,6 +119,21 @@ html {
   font-family: "Poppins", "Courier New", sans-serif;
   align-items: center;
   position: absolute;
+} */
+
+/* navbar {
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 10%;
+  font-family: "Poppins", "Courier New", sans-serif;
+  align-items: center;
+
+} */
+.navbar {
+  height: 2.5rem;
+  width: 100%;
+
 }
 
 /* .nav-list {
@@ -129,7 +163,7 @@ html {
   font-size: 1.2rem;
 }
 
-
+/* 
 .nav-list a{
   text-decoration: none;
   color: white;
@@ -138,9 +172,9 @@ html {
 
 .nav-list a:hover {
   color: rgb(165, 73, 73);
-}
+} */
 
-.navbar-nav a{
+.navbarNav li a{
   color: white;
   transition: 0.3s;
 
@@ -148,10 +182,15 @@ html {
   color: rgb(165, 73, 73);
 
 }
+.navbar .nav-item.active .nav-link{
+  color: #ffcc00;
 
-.custom-toggler.navbar-toggler {
-  border-color: rgb(255,102,203);
-} 
+}.navbar .nav-item .nav-link {
+  color: white;
+}
+.navbar .nav-item:hover .nav-link {
+    color: #ffcc00;
+}
 
 /* .scrolling-active {
   background-color: white;
@@ -207,21 +246,22 @@ html {
 } */
 #p1 {
   position: relative;
-  font-size: 50px;
+  font-size: 45px;
   color: black;
   padding-left: 2rem;
+  font-weight: 900;
 }
 
 #p2 {
   position: relative;
-  font-size: 35px;
+  font-size: 30px;
   color: black;
   padding-left: 2rem;
   /* color: rgb(111, 111, 111); */
 }
 
 #p3 {
-  font-size: 25px;
+  font-size: 20px;
   color: black;
   padding-left: 2rem;
   padding-top: 5rem;
@@ -229,7 +269,7 @@ html {
 
 #p4 {
   font-size: 15px;
-  color: rgb(187, 56, 56);
+  color: white;
 }
 #p5 {
   font-size: 25px;
@@ -270,7 +310,14 @@ hr.divider {
   transform: translate(-50%, -50%);
 }
 
-
+.ipbLogo{
+  height: 30px;
+  width: 80px;
+  right: 0;
+  margin-bottom: 0.3rem;
+  position: absolute;
+  right: 1rem;
+}
 
 /* Social media links */
 #email {
@@ -278,7 +325,7 @@ hr.divider {
   padding-right: 1rem;
   --fa-animation-duration: 2.5s;
   --fa-primary-opacity: 1;
-  color: rgb(169, 166, 166);
+  color: #ffcc00;
 }
 
 #linkdin {
@@ -286,7 +333,7 @@ hr.divider {
   padding-right: 1rem;
   --fa-animation-duration: 2.5s;
   --fa-primary-opacity: 1;
-  color: rgb(169, 166, 166);
+  color: #ffcc00;
 }
 
 #email:hover {
@@ -296,19 +343,9 @@ hr.divider {
   color: rgb(21, 105, 191);
 }
 
-#portfolio{
-  height: 1000px;
-  background-color: rgb(208, 204, 204);
-}
 
 
 
-.ipbLogo{
-  height: 30px;
-  width: 80px;
-  padding-left: 1rem;
-  margin-bottom: 0.3rem;
-}
 
 .education{
   padding-top: 0rem;
@@ -330,14 +367,17 @@ hr.divider {
   margin-bottom: 0.3rem;
 }
 
-.hrs{
-  width: 100%;
-  background-color: rgb(187, 56, 56);
+.hrh{
+  width: 60%;
+  border-bottom: 8px solid rgb(0, 0, 0);
+  left: 3rem;
+  position: absolute;
+  bottom: 0;
 }
 
-.hrt{
-  width: 100%;
-  border-top: 2px solid rgb(187, 56, 56);
+.hrv{
+  height: 100%;
+  border-right: 2px solid rgb(187, 56, 56);
 }
 
 /* Smaller screens */
@@ -372,7 +412,7 @@ hr.divider {
     body{
       overflow-x: hidden;
     }
-    .nav-list {
+    /* .nav-list {
       position: absolute;
       top: 0vh;
       right: 0;
@@ -398,7 +438,7 @@ hr.divider {
     .nav-list.active {
       transform: translateX(0);
 
-    }
+    } */
 
   #p1{
     font-size: 18px;
@@ -421,17 +461,11 @@ hr.divider {
     align-self: center;
     width: 100px;
     height: 100px;
-
-  }.image-div{
-    padding-top: 0;
-    width: 100%;
-    height: 10%;
-    position: relative;
-  }
+}
   
   #container {
-    height: 90%;
-  
+    height: 100%;
+    width: 100%;
   }
   
   hr.divider {
@@ -441,8 +475,15 @@ hr.divider {
     background-color: rgb(187, 56, 56);
     opacity: 1;
   }
+  .image-div{
+    padding-top: 0;
+    width: 100%;
+    height: 10%;
+    position: relative;
+  }
 #socialM{
   padding-top: 0;
+  position: relative;
 }
   
 
@@ -475,19 +516,19 @@ hr.divider {
   content: attr(data-text);
   width: 100%;
   height: 100%;
-  color: white;
+  color: black;
   overflow: hidden;
 }
 
 #p2::before {
   left: 2rem;
-  text-shadow: -4px 0 red;
+  text-shadow: -2px 0 red;
   animation: glitch-1 2s 0s linear reverse infinite;
 }
 
 #p2::after {
   left: 2rem;
-  text-shadow: -4px 0 blue;
+  text-shadow: -2px 0 blue;
   animation: glitch-2 2s 0s linear reverse infinite;
 }
 
