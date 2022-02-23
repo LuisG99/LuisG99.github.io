@@ -91,7 +91,7 @@ html {
 }
 
 /* navbar */
-.navbar {
+#navbar {
   display: flex;
   justify-content: space-between;
   background-color: black;
@@ -99,6 +99,7 @@ html {
   height: 2.5rem;
   font-family: "Poppins", "Courier New", sans-serif;
   align-items: center;
+  position: absolute;
 }
 
 /* .nav-list {
