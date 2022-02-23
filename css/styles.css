@@ -91,17 +91,17 @@ html {
 }
 
 /* navbar */
-#navbar {
+.navbar {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   color: white;
   height: 2.5rem;
   font-family: "Poppins", "Courier New", sans-serif;
   align-items: center;
 }
 
-.nav-list {
+/* .nav-list {
   display: flex;
   list-style: none;
 }
@@ -115,19 +115,44 @@ html {
   padding-right: 2rem;
   display: block;
   font-size: 1.2rem;
+} */
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding-right: 1rem;
+  text-decoration: none;
+  color: white;
+  padding-right: 2rem;
+  display: block;
+  font-size: 1.2rem;
 }
 
-.nav-list li a{
+
+.nav-list a{
   text-decoration: none;
   color: white;
   transition: 0.3s;
 }
 
-.nav-list li a:hover {
+.nav-list a:hover {
   color: rgb(165, 73, 73);
 }
 
-.scrolling-active {
+.navbar-nav a{
+  color: white;
+  transition: 0.3s;
+
+}.navbar-nav a:hover{
+  color: rgb(165, 73, 73);
+
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,102,203);
+} 
+
+/* .scrolling-active {
   background-color: white;
   box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1);
 }
@@ -142,7 +167,7 @@ html {
   height: 2px;
   background: white;
   margin: 8px;
-}
+} */
 /* .toggle-button {
   position: absolute;
   top: 0.75rem;
