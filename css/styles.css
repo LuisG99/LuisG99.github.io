@@ -330,12 +330,16 @@ hr.divider {
   #p1{
     font-size: 18px;
     padding-top: 1rem;
+    padding-left: 1rem;
   }
   #p2{
     font-size: 16px;
+    padding-left: 1rem;
   }
   #p3{
     font-size: 12px;
+    padding-top: 2rem;
+    padding-left: 1rem;
   }
   #p4{
     font-size: 8px;
