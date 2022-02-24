@@ -93,7 +93,17 @@ html {
 }
 
 #socialM{
-  padding-top: 3rem;
+  padding-top: 2rem;
+  align-items: center;
+  width: 100%;
+  right: 0;
+  left: 0;
+  margin: auto;
+  position: relative;
+} 
+#info{
+  padding-top: 1rem;
+  padding-left: 1rem;
   align-items: center;
   width: 100%;
   right: 0;
@@ -105,7 +115,7 @@ html {
   height: 100%;
 }
 .div-ed{
-  padding-top:0;
+  padding-top:2rem;
 }
 .div-exp{
   padding-top:5rem ;
@@ -271,13 +281,17 @@ html {
 }
 
 #p4 {
-  font-size: 15px;
+  font-size: 20px;
   color: white;
 }
 #p5 {
   font-size: 25px;
   color:  black;
   font-weight: 700;
+}
+#p6 {
+  font-size: 20px;
+  color:  white;
 }
 .p-others{
   font-size: 20px;
@@ -418,15 +432,21 @@ hr.divider {
   .p-others{
     font-size: 12px;
   }
+  #p6{
+    font-size: 8px;
+  }
   
   .p-date{
     font-size: 12px;}
 
   .div-exp{
-    padding-top: 3px;
+    padding-top: 15px;
   }
   .div-lang{
     padding-top: 3px;
+  }
+  .div-ed{
+    padding-top:10 px;
   }
 
   #imgProfile {
