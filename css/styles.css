@@ -425,7 +425,6 @@ hr.divider {
   
   height: auto;
   width: 60%;
-  padding-top: 1rem;
 }
 .ipbLogoDiv{
   height: auto;
@@ -438,6 +437,7 @@ hr.divider {
   height: auto;
   width: 100%;
   padding-right: 5rem;
+  padding-top: 1rem;
 }
 
 .hrh{
@@ -521,14 +521,6 @@ hr.divider {
   
   height: auto;
   width: 60%;
-  padding-top: 1rem;
-}
-.ipbLogoDiv{
-  height: auto;
-  width: 40%;
-  align-self: center;
-  display: flex;
-  justify-content:end;
 }
   
   
