@@ -129,6 +129,7 @@ html {
 
 }
 .divisao-tabela{
+  padding-top: 2rem;
   position: relative;
   justify-content: space-around;
   height: 40%;
@@ -531,6 +532,19 @@ hr.divider {
 }
 .education1{
   padding-top: 1rem
+}
+.divisao-tabela{
+  padding-top: 10px;
+  position: relative;
+  justify-content: space-around;
+  height: 40%;
+}
+.divisao-tabela1{
+  margin-top: 10px;
+  position: relative;
+  justify-content: space-around;
+  height: 40%;
+  
 }
   #p2::before,
 #p2::after {
