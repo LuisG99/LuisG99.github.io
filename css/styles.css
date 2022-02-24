@@ -24,14 +24,6 @@ html {
 }
 
 /* divs */
-#container {
-  /* background-color: rgb(14, 14, 14);  */
-  margin: 0;
-  position: relative;
-  width: 100%;
-
-
-}
 
 .about {
   width: auto;
@@ -372,10 +364,8 @@ hr.divider {
 .ipbLogo{
   height: 40px;
   width: 90px;
-  right: 0rem;
   position: relative;
 }
-
 #imgProfile {
   padding-top: 0;
   width: 100vw;
@@ -431,7 +421,7 @@ hr.divider {
 
 .txtEd{
   height: auto;
-  padding-top: 0;
+  padding-top: 1rem;
 }
 
 .hrh{
@@ -510,10 +500,6 @@ hr.divider {
   position: relative;
 }
   
-  #container {
-    height: 100%;
-    width: 100%;
-  }
   
   hr.divider {
     height: 2px;
