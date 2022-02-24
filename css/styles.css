@@ -520,12 +520,12 @@ hr.divider {
 .txtEd{
   
   height: auto;
-  width: 55%;
+  width: 60%;
   padding-top: 1rem;
 }
 .ipbLogoDiv{
   height: auto;
-  width: 45%;
+  width: 40%;
   align-self: center;
   display: flex;
   justify-content:end;
