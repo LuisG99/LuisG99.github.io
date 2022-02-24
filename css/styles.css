@@ -364,6 +364,7 @@ hr.divider {
 .ipbLogo{
   height: 40px;
   width: 90px;
+  align-self: center;
 }
 #imgProfile {
   padding-top: 0;
@@ -419,6 +420,7 @@ hr.divider {
 }
 
 .txtEd{
+  
   height: auto;
   width: 80%;
   padding-top: 1rem;
@@ -475,6 +477,7 @@ hr.divider {
   }
   .p-others{
     font-size: 12px;
+    align-self: center;
   }
   #p6{
     font-size: 8px;
