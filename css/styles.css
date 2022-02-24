@@ -80,6 +80,7 @@ html {
   width: auto;
   height: auto;
   margin-left: 2rem;
+  margin-right: 2rem;
 }
 .image-div{
   padding-top: 0;
@@ -310,6 +311,10 @@ html {
   font-size: 20px;
   color:  white;
 }
+#p7 {
+  font-size: 20px;
+  color:  black;
+}
 .p-others{
   font-size: 20px;
   color:  black;
@@ -370,6 +375,9 @@ hr.divider {
 #imgLF {
   width: 50%;
   height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Social media links */
@@ -512,9 +520,11 @@ hr.divider {
 }
   .about{
   margin-left: 10px;
+  margin-right: 10px;
   }
 #portfolio{
   margin-left: 10px;
+  margin-right: 10px;
 }
 .education1{
   padding-top: 1rem
