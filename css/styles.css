@@ -364,7 +364,6 @@ hr.divider {
 .ipbLogo{
   height: 40px;
   width: 90px;
-  position: relative;
 }
 #imgProfile {
   padding-top: 0;
@@ -421,7 +420,17 @@ hr.divider {
 
 .txtEd{
   height: auto;
+  width: 80%;
   padding-top: 1rem;
+}
+.txtImgEd{
+  height: auto;
+  width: 100%;
+}
+.ipbLogoDiv{
+  height: auto;
+  width: 20%;
+  align-self: center;
 }
 
 .hrh{
