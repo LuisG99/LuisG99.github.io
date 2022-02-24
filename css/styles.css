@@ -515,17 +515,17 @@ hr.divider {
   position: relative;
 }
 .txtImgEd{
-  padding-right: 5px;
+  padding-right: 3px;
 }
 .txtEd{
   
   height: auto;
-  width: 50%;
+  width: 55%;
   padding-top: 1rem;
 }
 .ipbLogoDiv{
   height: auto;
-  width: 50%;
+  width: 45%;
   align-self: center;
   display: flex;
   justify-content:end;
