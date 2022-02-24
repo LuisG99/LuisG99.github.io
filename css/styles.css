@@ -321,6 +321,7 @@ html {
   font-size: 20px;
   color:  black;
   font-weight: 400;
+  align-self: center;
 }
 .p-date{
   font-size: 20px;
@@ -477,7 +478,6 @@ hr.divider {
   }
   .p-others{
     font-size: 12px;
-    align-self: center;
   }
   #p6{
     font-size: 8px;
