@@ -424,19 +424,20 @@ hr.divider {
 .txtEd{
   
   height: auto;
-  width: 75%;
+  width: 60%;
   padding-top: 1rem;
 }
 .txtImgEd{
   height: auto;
   width: 100%;
+  padding-right: 5rem;
 }
 .ipbLogoDiv{
   height: auto;
-  width: 35%;
+  width: 40%;
   align-self: center;
   display: flex;
-  justify-content: center;
+  justify-content:end;
 }
 
 .hrh{
@@ -511,8 +512,10 @@ hr.divider {
 .ipbLogo{
   height: 20px;
   width: 45px;
-  right: 0rem;
   position: relative;
+}
+.txtImgEd{
+  padding-right: 22px;
 }
   
   
