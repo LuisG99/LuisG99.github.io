@@ -485,6 +485,9 @@ hr.divider {
     
   margin-left: 10px;
   }
+  .navbar{
+    display: none;
+  }
 #portfolio{
   margin-left: 10px;
 }
