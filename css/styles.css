@@ -51,11 +51,7 @@ html {
   bottom: 0;
   top: 2.5rem;
 }
-#imgProfile {
-  padding-top: 0;
-  width: 100vw;
-  height: 100%;
-}
+
 
 
   
@@ -103,9 +99,8 @@ html {
 } 
 #info{
   padding-top: 1rem;
-  padding-left: 1rem;
   align-items: center;
-  width: 100%;
+  width: 90%;
   right: 0;
   left: 0;
   margin: auto;
@@ -123,6 +118,28 @@ html {
 .div-lang{
   padding-top:5rem ;
 }
+.tabela{
+  float: left; 
+  width: 20%; 
+}
+.tabela1{
+  float: left; 
+  width: 16.66666%; 
+
+}
+.divisao-tabela{
+  position: relative;
+  justify-content: space-around;
+  height: 40%;
+}
+.divisao-tabela1{
+  margin-top: 2rem;
+  position: relative;
+  justify-content: space-around;
+  height: 40%;
+  
+}
+
 /* navbar */
 
 
@@ -344,6 +361,17 @@ hr.divider {
   position: relative;
 }
 
+#imgProfile {
+  padding-top: 0;
+  width: 100vw;
+  height: 100%;
+}
+
+#imgLF {
+  width: 50%;
+  height: 50%;
+}
+
 /* Social media links */
 #email {
   cursor:pointer;
@@ -443,17 +471,18 @@ hr.divider {
     padding-top: 15px;
   }
   .div-lang{
-    padding-top: 3px;
+    padding-top: 15px;
   }
   .div-ed{
     padding-top:10 px;
   }
 
+
   #imgProfile {
     align-self: center;
     width: 100px;
     height: 100px;
-}
+}  
 .ipbLogo{
   height: 20px;
   width: 45px;
