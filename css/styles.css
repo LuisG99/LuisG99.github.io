@@ -427,17 +427,17 @@ hr.divider {
   width: 60%;
   padding-top: 1rem;
 }
-.txtImgEd{
-  height: auto;
-  width: 100%;
-  padding-right: 5rem;
-}
 .ipbLogoDiv{
   height: auto;
   width: 40%;
   align-self: center;
   display: flex;
   justify-content:end;
+}
+.txtImgEd{
+  height: auto;
+  width: 100%;
+  padding-right: 5rem;
 }
 
 .hrh{
@@ -516,6 +516,19 @@ hr.divider {
 }
 .txtImgEd{
   padding-right: 5px;
+}
+.txtEd{
+  
+  height: auto;
+  width: 50%;
+  padding-top: 1rem;
+}
+.ipbLogoDiv{
+  height: auto;
+  width: 50%;
+  align-self: center;
+  display: flex;
+  justify-content:end;
 }
   
   
