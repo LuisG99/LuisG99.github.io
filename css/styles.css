@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" );
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 * {
   margin: 0;
   padding: 0;
@@ -98,6 +99,14 @@ html {
   margin: auto;
   position: relative;
 } 
+#mediaIcons{
+  width: 100%;
+  right: 0;
+  left: 0;
+  position: relative;
+  margin: auto;
+
+}
 #info{
   padding-top: 1rem;
   align-items: center;
@@ -375,7 +384,7 @@ hr.divider {
 
 #imgLF {
   width: 50%;
-  height: 50%;
+  height: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -383,28 +392,27 @@ hr.divider {
 
 /* Social media links */
 #email {
+  font-size: 35px;
   cursor:pointer;
-  padding-right: 1rem;
-  --fa-animation-duration: 2.5s;
-  --fa-primary-opacity: 1;
   color: #ffcc00;
+  padding-right: 1rem;
 }
 
 #linkdin {
+  font-size: 35px;
   cursor:pointer;
-  padding-right: 1rem;
-  --fa-animation-duration: 2.5s;
-  --fa-primary-opacity: 1;
   color: #ffcc00;
+  padding-left: 1rem;
 }
 
 #email:hover {
   color: white;
+  font-size: 42px;
 }
 #linkdin:hover {
   color: rgb(21, 105, 191);
+  font-size: 42px;
 }
-
 
 .education{
   padding-top: 5px;
@@ -525,6 +533,25 @@ hr.divider {
   .about{
   margin-left: 10px;
   margin-right: 10px;
+  }
+  
+  #email {
+    font-size: 18px;
+    padding-right: 4px;
+  }
+  
+  #linkdin {
+    font-size: 18px;
+    padding-left: 4px;
+  }
+
+  #email:hover {
+    color: white;
+    font-size: 20px;
+  }
+  #linkdin:hover {
+    color: rgb(21, 105, 191);
+    font-size: 20px;
   }
 #portfolio{
   margin-left: 10px;
