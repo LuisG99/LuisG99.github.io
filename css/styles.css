@@ -486,11 +486,6 @@ html {
   bottom: 0;
 }
 
-.hrv{
-  height: 100%;
-  border-right: 2px solid rgb(187, 56, 56);
-}
-
 /* Smaller screens */
 @media (max-width: 600px) {
     body{
@@ -651,7 +646,7 @@ html {
   height: 40%;
   
 }.hrh{
-  width: 50%;
+  width: 40%;
   left: 1rem;
 }
 .abtImgCont {
