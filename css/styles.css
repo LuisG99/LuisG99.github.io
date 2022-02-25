@@ -45,6 +45,7 @@ html {
 .abtTxtCont {
   height: 100%;
   padding-right: 3rem;
+  padding-top: 5rem;
   text-align: left;
   width: 80%;
   position: relative;
@@ -100,6 +101,21 @@ html {
   margin: auto;
   position: relative;
 } 
+.divAge{
+  height: auto;
+  width: 100%;
+  padding-top: 15px;
+
+}.divPhone{
+  height: auto;
+  width: 100%;
+  padding-top: 15px;
+}.divLoc{
+  height: auto;
+  width: 100%;
+  padding-top: 20px;
+  
+}
 .landing{
   height: 100%;
 }
@@ -111,6 +127,7 @@ html {
 }
 .div-lang{
   padding-top:5rem ;
+    padding-bottom:3rem ;
 }
 .tabela{
   float: left; 
@@ -138,7 +155,7 @@ html {
   background-color: rgb(31, 31, 31);
   color: #fff;
   justify-content: center;
-  padding-top: 0;
+  padding-top:0rem;
 
 }
 
@@ -305,7 +322,7 @@ html {
 
 #p1 {
   position: relative;
-  font-size: 45px;
+  font-size: 55px;
   color: black;
   font-weight: bold;
 }
@@ -332,12 +349,18 @@ html {
   font-weight: 700;
 }
 #p6 {
-  font-size: 20px;
+  font-size: 17px;
   color:  white;
+  padding-top: 15px;
 }
 #p7 {
   font-size: 20px;
   color:  black;
+}
+#p8{
+  font-size: 20px;
+  color:  white;
+  font-weight: bold;
 }
 .p-others{
   font-size: 20px;
@@ -500,8 +523,12 @@ html {
   }
   #p6{
     font-size: 8px;
+    padding-top: 5px;
   }
   #p7{
+    font-size: 8px;
+  }
+  #p8{
     font-size: 8px;
   }
   .nav-list{
@@ -549,6 +576,20 @@ html {
   padding-right: 1rem;
 }
   
+.divAge{
+  height: auto;
+  width: 100%;
+
+}.divPhone{
+  height: auto;
+  width: 100%;
+  padding-top: 5px;
+}.divLoc{
+  height: auto;
+  width: 100%;
+  padding-top: 5px;
+  
+}
   
   hr.divider {
     height: 2px;
@@ -617,6 +658,7 @@ html {
 
 .abtTxtCont {
   width: 70%;
+  padding-top: 30px;
 
 
 }
