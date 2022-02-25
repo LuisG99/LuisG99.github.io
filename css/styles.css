@@ -26,9 +26,9 @@ html {
 .about {
   width: auto;
   position: relative;
-  margin-left: 0rem;
   height: 100%;
-  padding-top: 2.5rem;;
+  padding-top: 2.5rem;
+  padding-left: 2rem;
 } 
 
 .abtImgCont {
@@ -36,7 +36,7 @@ html {
   height: 100%;
   position: relative;
   background-color: rgb(31, 31, 31); 
-  margin-right: 0;
+  right: 0;
 }
 
 
@@ -44,10 +44,8 @@ html {
   
 .abtTxtCont {
   height: 100%;
-  padding-right: 2rem;
+  padding-right: 3rem;
   text-align: left;
-  left: 0;
-  margin: auto;
   width: 80%;
   position: relative;
   text-align:justify/left/right/center;
@@ -368,7 +366,7 @@ html {
 /* Images */
 
 .profilepic {
-  width: 200px;
+  width: 100%;
   border-radius: 50%;
   position: absolute;
   margin: auto;
@@ -542,12 +540,6 @@ html {
     padding-top:10 px;
   }
 
-
-  #imgProfile {
-    align-self: center;
-    width: 100px;
-    height: 100px;
-}  
 .ipbLogo{
   height: 20px;
   width: 45px;
@@ -574,7 +566,7 @@ html {
   padding-top: 10px;
 }
   .about{
-  margin-left: 10px;
+  padding-left: 10px;
   margin-right: 10px;
   }
   
@@ -618,6 +610,15 @@ html {
   justify-content: space-around;
   height: 40%;
   
+}
+.abtImgCont {
+  width: 30%;
+}
+
+.abtTxtCont {
+  width: 70%;
+
+
 }
   #p2::before,
 #p2::after {
