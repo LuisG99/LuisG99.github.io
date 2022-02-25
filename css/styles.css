@@ -541,10 +541,6 @@ html {
   .div-ed{
     padding-top:10 px;
   }
-  .nav-list.active{
-    transform: translateX(0%);
-
-  }
 
 
   #imgProfile {
@@ -645,6 +641,9 @@ html {
   animation: glitch-2 2s 0s linear reverse infinite;
 }
 }
+  .nav-list.active{
+    transform: translateX(0%);
+  }
   /* animations */
 #p2::before,
 #p2::after {
