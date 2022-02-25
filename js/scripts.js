@@ -1,6 +1,3 @@
-//
-// Scripts
-//
 class MobileNavbar{
     constructor(mobileMenu,navLists,navLinks){
         this.mobileMenu = document.querySelector(mobileMenu);
