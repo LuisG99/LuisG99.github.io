@@ -479,7 +479,7 @@ html {
 }
 
 .hrh{
-  width: 60%;
+  width: 50%;
   border-bottom: 7px solid rgb(0, 0, 0);
   left: 3rem;
   position: absolute;
@@ -605,9 +605,6 @@ html {
     max-width: 100%;
     height: auto;
   }
-#socialM{
-  padding-top: 10px;
-}
   .about{
   padding-left: 10px;
   margin-right: 10px;
@@ -653,6 +650,9 @@ html {
   justify-content: space-around;
   height: 40%;
   
+}.hrh{
+  width: 50%;
+  left: 1rem;
 }
 .abtImgCont {
   width: 30%;
