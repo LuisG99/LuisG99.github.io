@@ -472,11 +472,13 @@ html {
 }
 
 .hrh{
-  width: 50%;
-  border-bottom: 7px solid rgb(0, 0, 0);
-  left: 3rem;
+  width: 60%;
+  border-bottom: 7px solid;
+  color: black;
+  left: 2rem;
   position: absolute;
   bottom: 0;
+  opacity: 1;
 }
 
 /* Smaller screens */
@@ -541,7 +543,9 @@ html {
   .dot{
     display: none;
   }
-
+  #socialM{
+    padding-bottom: 10px;
+  } 
   .p-date{
     font-size: 12px;}
 
@@ -580,14 +584,6 @@ html {
   padding-top: 5px;
   
 }
-  
-  hr.divider {
-    height: 2px;
-    max-width: 2.25rem;
-    margin: 1.5rem auto;
-    background-color: rgb(187, 56, 56);
-    opacity: 1;
-  }
   .image-div{
     padding-top: 0;
     max-width: 100%;
@@ -639,8 +635,8 @@ html {
   height: 40%;
   
 }.hrh{
-  width: 40%;
-  left: 1rem;
+  width: 60%;
+  padding-left: 10px;
 }
 
 .abtTxtCont {
@@ -648,7 +644,7 @@ html {
   padding-top: 30px;
 }
 .abtImgCont {
-  width: 20%;
+  width: 30%;
 }
   #p2::before,
 #p2::after {
