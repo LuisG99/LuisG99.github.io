@@ -153,22 +153,14 @@ html {
 
 }
 
-/* navbar */
-
-/* .navbar{
-  justify-content: space-around;
-  align-self: flex-start;
-  background-color: rgb(31, 31, 31);
-  align-items: center;
-} */
-#nav a{
+.nav-link{
   color: white;
   font-size: 17px;
 }
-#nav a:hover{
-  color:  #ffcc00;
+.nav-link:hover{
+  color:  #ffcc00;}
 
-}
+/* }
 
 .nav-list{
   list-style: none;
@@ -197,7 +189,7 @@ html {
   height: 2px;
   background-color: white;
   margin: 6px;
-}
+} */
 /* #navbar {
   display: flex;
   justify-content: space-between;
