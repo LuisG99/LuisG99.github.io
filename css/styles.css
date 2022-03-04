@@ -153,11 +153,11 @@ html {
 
 }
 
-.nav-link{
+.navbar .container-fluid #navbarNav .navbar-nav a{
   color: white;
   font-size: 17px;
 }
-.nav-link:hover{
+.navbar .container-fluid #navbarNav .navbar-nav a:hover{
   color:  #ffcc00;}
 
 /* }
