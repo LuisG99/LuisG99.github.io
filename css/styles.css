@@ -74,6 +74,7 @@ html {
   right: 0;
   left: 0;
   bottom: 0;
+  padding-bottom: 1rem;
   margin: auto;
   position: absolute;
 } 
@@ -554,7 +555,7 @@ html {
   }
   .div-lang{
     padding-top: 15px;
-    padding-bottom:15px ;
+    padding-bottom:30px ;
   }
   .div-ed{
     padding-top:10 px;
