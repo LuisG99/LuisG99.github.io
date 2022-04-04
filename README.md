@@ -1,2 +1,2 @@
-# lgon.github.io
+# Link to access the portfolio: lgon.github.io
 Personal portfolio 
