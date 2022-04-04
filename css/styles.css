@@ -160,153 +160,7 @@ html {
 .navbar .container-fluid #navbarNav .navbar-nav a:hover{
   color:  #ffcc00;}
 
-/* }
 
-.nav-list{
-  list-style: none;
-  display: flex;
-}
-
-.nav-list li{
-  letter-spacing: 3px;
-  margin-left: 32px;
-  list-style: none;
-}
-.nav-list li a{
-  color: white;
-  text-decoration: none;
-}
-
-.nav-list a:hover{
-  color:  #ffcc00;
-}
-.mobile-menu{
-  display: none;
-  cursor: pointer;
-}
-.mobile-menu div{
-  width: 25px;
-  height: 2px;
-  background-color: white;
-  margin: 6px;
-} */
-/* #navbar {
-  display: flex;
-  justify-content: space-between;
-  background-color: black;
-  color: white;
-  height: 2.5rem;
-  font-family: "Poppins", "Courier New", sans-serif;
-  align-items: center;
-  position: absolute;
-} */
-
-/* navbar {
-  top: 0;
-  display: flex;
-  justify-content: space-between;
-  height: 10%;
-  font-family: "Poppins", "Courier New", sans-serif;
-  align-items: center;
-
-} */
-/* .navbar {
-  height: 2.5rem;
-  width: 100%;
-
-} */
-
-/* .nav-list {
-  display: flex;
-  list-style: none;
-}
-
-
-.nav-list li {
-  list-style: none;
-  padding-right: 1rem;
-  text-decoration: none;
-  color: white;
-  padding-right: 2rem;
-  display: block;
-  font-size: 1.2rem;
-} */
-
-/* .nav-list {
-  display: flex;
-  list-style: none;
-  padding-right: 1rem;
-  text-decoration: none;
-  color: white;
-  padding-right: 2rem;
-  display: block;
-  font-size: 1.2rem;
-} */
-
-/* 
-.nav-list a{
-  text-decoration: none;
-  color: white;
-  transition: 0.3s;
-}
-
-.nav-list a:hover {
-  color: rgb(165, 73, 73);
-} */
-
-/* .navbarNav li a{
-  color: white;
-  transition: 0.3s;
-
-}.navbar-nav a:hover{
-  color: rgb(165, 73, 73);
-
-}
-.navbar .nav-item.active .nav-link{
-  color: #ffcc00;
-
-}.navbar .nav-item .nav-link {
-  color: white;
-}
-.navbar .nav-item:hover .nav-link {
-    color: #ffcc00;
-} */
-
-/* .scrolling-active {
-  background-color: white;
-  box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.1);
-}
-
-.mobile-menu{
-  display: none;
-  cursor:pointer;
-}
-
-.mobile-menu div{
-  width: 32px;
-  height: 2px;
-  background: white;
-  margin: 8px;
-} */
-/* .toggle-button {
-  position: absolute;
-  top: 0.75rem;
-  left: 1rem;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 21px;
-}
-.toggle-button .bar {
-  height: 3px;
-  width: 100%;
-  background-color: white;
-  border-radius: 10px;
-} */
-
-
-/* letters */
 
 .dot {
   color: #ffcc00;
@@ -822,5 +676,57 @@ html {
   }
   100% {
     clip: rect(83px, auto, 40px, 30px);
+  }
+}
+@media (max-width: 1000px) , screen and (max-height: 700px){
+  #p3 {
+    font-size: 15px;
+    color: black;
+    padding-top: 3rem;
+  }
+  #p6{
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  #p8{
+    font-size: 15px;
+  }
+  #p4{
+
+    font-size: 15px;
+  }
+ 
+  .divAge{
+    height: auto;
+    width: 100%;
+    padding-top: 5px;
+  
+  }.divPhone{
+    height: auto;
+    width: 100%;
+    padding-top: 5px;
+  }.divLoc{
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+    
+  }
+  #email {
+    font-size: 25px;
+    padding-right: 10px;
+  }
+  
+  #linkdin {
+    font-size: 25px;
+    padding-left: 10px;
+  }
+
+  #email:hover {
+    color: white;
+    font-size: 28px;
+  }
+  #linkdin:hover {
+    color: rgb(21, 105, 191);
+    font-size: 28px;
   }
 }
