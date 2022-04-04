@@ -678,11 +678,18 @@ html {
     clip: rect(83px, auto, 40px, 30px);
   }
 }
-@media (max-width: 1000px) , screen and (max-height: 700px){
+@media (max-width: 800px) , screen and (max-height: 700px){
+  #p1{
+
+    font-size: 30px;
+  }
+  #p2{
+
+    font-size: 25px;
+  }
+
   #p3 {
-    font-size: 15px;
-    color: black;
-    padding-top: 3rem;
+    font-size: 18px;
   }
   #p6{
     font-size: 15px;
