@@ -678,8 +678,7 @@ html {
     clip: rect(83px, auto, 40px, 30px);
   }
 }
-/* , screen and (max-height: 700px) */
-@media (min-width: 640px) and (max-width: 1000px) {
+@media (min-width: 640px) and (max-width: 1000px) , screen and (max-height: 700px){
   #p1{
 
     font-size: 30px;
