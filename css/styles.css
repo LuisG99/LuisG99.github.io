@@ -496,6 +496,7 @@ html {
 .abtTxtCont {
   width: 70%;
   padding-top: 15px;
+  padding-right: 1rem;
 }
 .abtImgCont {
   width: 30%;
@@ -661,6 +662,7 @@ html {
 .abtTxtCont {
   width: 70%;
   padding-top: 15px;
+  padding-right: 1rem;
 }
 .abtImgCont {
   width: 30%;
@@ -890,6 +892,9 @@ html {
   #email {
     font-size: 25px;
     padding-right: 10px;
+  }
+  .about{
+  padding-left: 1rem;
   }
   
   #linkdin {
