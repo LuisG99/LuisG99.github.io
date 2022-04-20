@@ -32,7 +32,6 @@ html {
 } 
 
 .abtImgCont {
-  /* width: 20%; */
   height: 100%;
   position: relative;
   background-color: rgb(31, 31, 31); 
@@ -45,9 +44,8 @@ html {
 .abtTxtCont {
   height: 100%;
   padding-right: 3rem;
-  padding-top: 5rem;
+  padding-top: 1rem;
   text-align: left;
-  /* width: 80%; */
   position: relative;
   text-align:justify/left/right/center;
   text-justify:values;
@@ -180,7 +178,7 @@ html {
 }
 
 #p3 {
-  font-size: 20px;
+  font-size: 23px;
   color: black;
   padding-top: 3rem;
 }
@@ -334,12 +332,185 @@ html {
   opacity: 1;
 }
 
-/* Smaller screens */
-@media (max-width: 639px) {
+/* Smaller screens 1 */
+@media (max-width: 400px) {
     body{
       overflow-x: hidden;
     }
+  
+    .abtTxtCont {
+      padding-top: 5px;
+    }
 
+  #p1{
+    font-size: 14px;
+    padding-top: 3px;
+    padding-left: 2px;
+  }
+  #p2{
+    font-size: 12px;
+    padding-left: 2px;
+  }
+  #p3{
+    font-size: 10px;
+    padding-top: 2rem;
+    padding-left: 2px;
+  }
+  #p4{
+    font-size: 8px;
+  }
+  #p5{
+    font-size: 18px;
+    padding-left: 2px;
+  }
+  .p-others{
+    font-size: 12px;
+  }
+  #p6{
+    font-size: 8px;
+    padding-top: 5px;
+  }
+  #p7{
+    font-size: 8px;
+  }
+  #p8{
+    font-size: 8px;
+  }
+  .nav-list{
+    position: relative;
+    right: 0;
+    width: 100vw;
+    height: 92vh;
+    background-color: rgb(31, 31, 31);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+
+  }
+  .nav-list li{
+    margin-left: 0;
+    opacity: 0;
+  }
+  .mobile-menu{
+    display: block;
+  }
+  .dot{
+    display: none;
+  }
+  #socialM{
+    padding-bottom: 10px;
+  } 
+  .p-date{
+    font-size: 12px;}
+
+  .div-exp{
+    padding-top: 15px;
+  }
+  .div-lang{
+    padding-top: 15px;
+    padding-bottom:30px ;
+  }
+  .div-ed{
+    padding-top:10 px;
+  }
+
+.ipbLogo{
+  height: 20px;
+  width: 45px;
+  position: relative;
+}
+.txtImgEd{
+  padding-right: 10px;
+}
+  
+.divAge{
+  height: auto;
+  width: 100%;
+  padding-top: 5px;
+
+}.divPhone{
+  height: auto;
+  width: 100%;
+  padding-top: 5px;
+}.divLoc{
+  height: auto;
+  width: 100%;
+  padding-top: 5px;
+  
+}
+  .image-div{
+    padding-top: 0;
+    max-width: 100%;
+    height: auto;
+  }
+  .about{
+  padding-left: 10px;
+  margin-right: 10px;
+  }
+  
+  #email {
+    font-size: 18px;
+    padding-right: 4px;
+  }
+  
+  #linkdin {
+    font-size: 18px;
+    padding-left: 4px;
+  }
+
+  #email:hover {
+    color: white;
+    font-size: 20px;
+  }
+  #linkdin:hover {
+    color: rgb(21, 105, 191);
+    font-size: 20px;
+  }
+#portfolio{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.education1{
+  padding-top: 1rem
+}
+.education1{
+  padding-top: 1rem
+}
+.divisao-tabela{
+  padding-top: 10px;
+  position: relative;
+  justify-content: space-around;
+  height: 40%;
+}
+.divisao-tabela1{
+  margin-top: 10px;
+  position: relative;
+  justify-content: space-around;
+  height: 40%;
+  
+}.hrh{
+  width: 60%;
+  padding-left: 10px;
+}
+
+.abtTxtCont {
+  width: 70%;
+  padding-top: 30px;
+}
+.abtImgCont {
+  width: 30%;
+}}
+
+/* Smaller screens2 */
+@media (max-width: 639px) {
+  body{
+    overflow-x: hidden;
+  }
+  
+  .abtTxtCont {
+    padding-top: 5px;
+  }
   #p1{
     font-size: 18px;
     padding-top: 3px;
@@ -498,8 +669,10 @@ html {
 }
 .abtImgCont {
   width: 30%;
-}
-  #p2::before,
+}}
+  
+  /* animations */
+/* #p2::before,
 #p2::after {
   position: absolute;
   content: attr(data-text);
@@ -523,9 +696,7 @@ html {
 }
   .nav-list.active{
     transform: translateX(0%);
-  }
-  /* animations */
-#p2::before,
+  }#p2::before,
 #p2::after {
   position: absolute;
   content: attr(data-text);
@@ -677,7 +848,7 @@ html {
   100% {
     clip: rect(83px, auto, 40px, 30px);
   }
-}
+} */
 @media (min-width: 640px) and (max-width: 1000px){
   #p1{
 
