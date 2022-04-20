@@ -338,10 +338,6 @@ html {
       overflow-x: hidden;
     }
   
-    .abtTxtCont {
-      padding-top: 5px;
-    }
-
   #p1{
     font-size: 14px;
     padding-top: 3px;
@@ -356,6 +352,10 @@ html {
     padding-top: 2rem;
     padding-left: 2px;
   }
+
+    .p-others{
+      font-size: 10px;
+    }
   #p4{
     font-size: 8px;
   }
@@ -364,7 +364,7 @@ html {
     padding-left: 2px;
   }
   .p-others{
-    font-size: 12px;
+    font-size: 10px;
   }
   #p6{
     font-size: 8px;
@@ -446,7 +446,6 @@ html {
   }
   .about{
   padding-left: 10px;
-  margin-right: 10px;
   }
   
   #email {
@@ -496,7 +495,7 @@ html {
 
 .abtTxtCont {
   width: 70%;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 .abtImgCont {
   width: 30%;
@@ -508,9 +507,6 @@ html {
     overflow-x: hidden;
   }
   
-  .abtTxtCont {
-    padding-top: 5px;
-  }
   #p1{
     font-size: 18px;
     padding-top: 3px;
@@ -615,7 +611,6 @@ html {
   }
   .about{
   padding-left: 10px;
-  margin-right: 10px;
   }
   
   #email {
@@ -665,7 +660,7 @@ html {
 
 .abtTxtCont {
   width: 70%;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 .abtImgCont {
   width: 30%;
@@ -872,6 +867,9 @@ html {
   #p4{
 
     font-size: 15px;
+  }
+  .p-others{
+    font-size: 18px;
   }
  
   .divAge{
